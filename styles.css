@@ -667,7 +667,6 @@ body {
     align-items: flex-start !important;
     justify-content: flex-start !important;
     text-align: left;
-    border: 2px solid red;
   }
   .service-area-map {
     margin-left: 0;
