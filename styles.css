@@ -534,12 +534,23 @@ body {
     align-items: center;
     flex-wrap: wrap;
     gap: 1rem;
+    min-height: 150px;
 }
 
 .footer-logo {
     display: flex;
     align-items: center;
-    gap: 10px;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.footer-logo .logo-img {
+    width: auto;
+    height: auto;
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+    object-fit: contain;
 }
 
 .main-logo-text {
